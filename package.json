@@ -1,0 +1,8 @@
+{
+  "name": "AudioDrop",
+  "version": "1.0.0",
+  "main": "AudioDrop.js",
+  "repository": "git@github.com:odub/AudioDrop.git",
+  "author": "Oscar Dub <oscar@roli.com>",
+  "license": "UNLICENSED"
+}

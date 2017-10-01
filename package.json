@@ -1,5 +1,5 @@
 {
-  "name": "AudioDrop",
+  "name": "audio-drop",
   "version": "1.0.0",
   "main": "AudioDrop.js",
   "repository": "git@github.com:odub/AudioDrop.git",

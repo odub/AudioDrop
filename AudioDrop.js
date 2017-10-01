@@ -1,4 +1,4 @@
-export default function AudioDrop(options) {
+function AudioDrop(options) {
 
   if(!options.context) {
     return console.error('Please supply AudioDrop with a `context` option.');
@@ -97,3 +97,5 @@ export default function AudioDrop(options) {
 AudioDrop.isValidVariableName = function(str) {
   return !str.match(/^(?:do|if|in|for|let|new|try|var|case|else|enum|eval|null|this|true|void|with|break|catch|class|const|false|super|throw|while|yield|delete|export|import|public|return|static|switch|typeof|default|extends|finally|package|private|continue|debugger|function|arguments|interface|protected|implements|instanceof|undefined)$/);
 };
+
+module.exports = AudioDrop;

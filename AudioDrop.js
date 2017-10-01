@@ -1,4 +1,4 @@
-function AudioDrop(options) {
+export default function AudioDrop(options) {
 
   if(!options.context) {
     return console.error('Please supply AudioDrop with a `context` option.');
